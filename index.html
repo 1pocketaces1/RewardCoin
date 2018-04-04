@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>RewardCoin</title>
+    <script src="lottie.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="style.css"/>
+
+  </head>
+  <body>
+
+    <div id="backContainer"></div>
+    <div id="animContainer"></div>
+
+  </body>
+
+  <script>
+  var back = document.getElementById('backContainer');
+  var anim = document.getElementById('animContainer');
+    var background = lottie.loadAnimation({
+                  container: back,
+                  renderer: 'svg',
+                  loop: true,
+                  autoplay: true,
+                  path: 'background.json'
+                });
+    var animation = lottie.loadAnimation({
+                  container: anim,
+                  renderer: 'svg',
+                  loop: true,
+                  autoplay: true,
+                  path: 'animation.json'
+                });
+  </script>
+</html>
