@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SpinCoin!</title>
+    <script src="lottie.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="style.css"/>
+
+  </head>
+  <body>
+
+    <div id="backContainer"></div>
+    <div id="animContainer"></div>
+
+  </body>
+
+  <script>
+    var background = lottie.loadAnimation({
+                  container: 'backContainer',
+                  renderer: 'svg',
+                  loop: true,
+                  autoplay: true,
+                  path: 'background.json'
+                });
+    var anim = lottie.loadAnimation({
+                  container: 'animContainer',
+                  renderer: 'svg',
+                  loop: true,
+                  autoplay: true,
+                  path: 'animation.json'
+                });
+  </script>
+</html>

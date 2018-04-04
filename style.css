@@ -1,0 +1,23 @@
+
+html {
+  height: 100%;
+}
+
+body {
+  /* height: 100%;
+  background: linear-gradient(167deg, #d4ad4c, #ad00ae);
+  background-size: 400% 400%;
+  animation: AnimationName 31s ease infinite; */
+}
+
+#backContainer {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+#animContainer {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
